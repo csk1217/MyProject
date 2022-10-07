@@ -1,0 +1,43 @@
+@charset "UTF-8";
+table{
+	padding: 2px 0!important;
+}
+#notice{
+	border: 1px solid #d6d6d6;
+    padding: 10px 20px;
+}
+
+#notice_k > h3{
+	display: inline-block;
+    color: #57a549;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#notice_k > p {
+	display: inline-block;
+    text-align: right;
+    margin-bottom: 10px;
+    float: right;
+    margin-top: 12px;
+    font-size: 12px
+}
+
+#notice_k > p > a{
+	border: 1px solid #d6d6d6;
+    padding: 5px;
+    color: #57a549;
+    background-color: #f6f6f6;
+}
+
+#subject{
+    text-align: left;
+    font-size: 13px;
+}
+
+#date{
+	width: 100px;
+    text-align: center;
+    font-size: 13px;
+}
